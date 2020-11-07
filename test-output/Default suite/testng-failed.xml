@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="pkg_OWM.Workflow_Browser.Dyanamic_Serial_Workflow.Dynamic_Serial_Actions">
+        <methods>
+          <include name="searchWorkflow"/>
+          <include name="ClickApplications"/>
+          <include name="WebTable"/>
+          <include name="IntiliaseDriver"/>
+          <include name="NewFolderCreation"/>
+          <include name="LoginPageNavigation"/>
+          <include name="startTest"/>
+          <include name="NavigatetoTabs"/>
+          <include name="logOff"/>
+        </methods>
+      </class> <!-- pkg_OWM.Workflow_Browser.Dyanamic_Serial_Workflow.Dynamic_Serial_Actions -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
